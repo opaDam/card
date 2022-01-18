@@ -31,20 +31,12 @@ body{
     border-radius: 10px;
 }
 
-/* .hoes-1{
-    background-image: url(./images/ABBA\ -\ Chiquitita.jpg);
-}
-.hoes-2{
-    background-image: url(./images/ABBA\ -\ Dancing\ Queen.jpg);
-}
-.hoes-3{
-    background-image: url(./images/ABBA\ -\ Gimme!\ Gimme!\ Gimme!.jpg);
-} */
-
-.card h2, .card p  {
-    padding: 10px;
+.card p  {
+    padding: 10px 0;
 }
 
 .card a{
     background-color: black;
+    color: aliceblue;
+    text-decoration: none;
 }

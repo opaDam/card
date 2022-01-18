@@ -49,5 +49,5 @@ body{
     color: white;
     cursor: pointer;
     transform: scale(1.03);
-    transition: all is ease;
+    transition: all 1s ease;
 }

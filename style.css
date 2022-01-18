@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(27, 27, 27);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-image{
+    height: 210px;
+    margin: 15px 15px;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* .hoes-1{
+    background-image: url(./images/ABBA\ -\ Chiquitita.jpg);
+}
+.hoes-2{
+    background-image: url(./images/ABBA\ -\ Dancing\ Queen.jpg);
+}
+.hoes-3{
+    background-image: url(./images/ABBA\ -\ Gimme!\ Gimme!\ Gimme!.jpg);
+} */
+
+.card h2, .card p  {
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+}

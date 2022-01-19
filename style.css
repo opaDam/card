@@ -1,53 +1,72 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background: rgb(27, 27, 27);
+body {
+  background: rgb(27, 27, 27);
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.card{
-    background: white;
-    width: 250px;
-    height: 400px;
-    margin: 10px;
-    border-radius: 15px;
-    text-align: center;
+.card {
+  background: azure;
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
 }
 
-.card-image{
-    height: 210px;
-    margin: 15px 15px;
-    background-size: cover;
-    justify-content: center;
-    /* border-radius: 25px; */
+.card-image {
+  height: 210px;
+  margin: 15px 15px;
+  background-size: cover;
+  justify-content: center;
+  /* border-radius: 25px; */
 }
 
 .card p {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
-.card a{
-    background-color: black;
-    color: aliceblue;
-    text-decoration: none;
-    display: block;
-    padding: 5px;
-    margin: 0 20px;
+.card a {
+  background-color: black;
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: 0 20px;
 }
 
-.card:hover{
-    background-color: rgb(62, 62, 62);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
+.card:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+audio {
+  width: 200px;
+  height: 32px;
+  background-color: aliceblue;
+}
+.btn {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.active {
+  background-color: rgb(62, 62, 62);
+  color: white;
+}
+.btnStop {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }

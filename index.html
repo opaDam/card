@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>card</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
+    <audio id="audioPlayer" src=""></audio>
     <section class="container">
         <div class="card">
             <div class="card-image hoes-1">
@@ -15,24 +19,32 @@
             </div>
             <h2 class="title">Chiquitita</h2>
             <p class="artist">ABBA</p>
-            <a href="https://youtu.be/p4QqMKe3rwY">Chiquitita</a>
-        </div>  
+            <!-- <audio width="200px" controls show autoplay width="200px" src="https://opadam.github.io/map/map/v1">Chiquitita</audio> -->
+            <button class="btn" onclick="x='v1'; play_music(x)">Play Music</button>
+            <button class="btnStop" onclick="stop()">Stop</button>
+            <!-- <a href="#">Chiquitita</a> -->
+        </div>
         <div class="card">
             <div class="card-image hoes-2">
                 <img src="./images/ABBA - Dancing Queen.jpg" alt="">
             </div>
             <h2 class="title">Dancing Queen</h2>
             <p class="artist">ABBA</p>
-            <a href="">READ MORE</a>
-        </div>  
+            <!-- <video controls width="200px" src="https://opadam.github.io/map/map/v2">Chiquitita</video> -->
+            <button class="btn" onclick="x='v2'; play_music(x)">Play Music</button>
+            <!-- <a href="">READ MORE</a> -->
+        </div>
         <div class="card">
             <div class="card-image hoes-3">
                 <img src="./images/ABBA - Gimme! Gimme! Gimme!.jpg" alt="">
             </div>
-            <h2 class="title">Gimme! Gimme! Gimme!</h2>
+            <h2 class="title">Gimme! Gimme!</h2>
             <p class="artist">ABBA</p>
-            <a href="">READ MORE</a>
+            <!-- <video controls width="200px" src="https://opadam.github.io/map/map/v3">Chiquitita</video> -->
+            <button class="btn" onclick="x='v3'; play_music(x)">Play Music</button>
+            <!-- <a href="">READ MORE</a> -->
         </div>
     </section>
 </body>
+
 </html>
